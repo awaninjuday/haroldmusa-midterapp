@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<title>My Autobiography</title>
+<script>
+	
+function save() {
+	var fieldValue = document.getElementById('field_Name').value;
+	localStorage.setItem('Name',fieldValue);
+	var fieldValue = document.getElementById('field_Address').value;
+	localStorage.setItem('Address',fieldValue);
+	var fieldValue = document.getElementById('field_Age').value;
+	localStorage.setItem('Age',fieldValue);
+	var fieldValue = document.getElementById('field_Citizenship').value;
+        localStorage.setItem('Citizenship',fieldValue);
+	var fieldValue = document.getElementById('field_Birthday').value;
+	localStorage.setItem('Birthday',fieldValue);
+	var fieldValue = document.getElementById('field_Hobby').value;
+	localStorage.setItem('Hobby',fieldValue);
+	var fieldValue = document.getElementById('field_Height and Weight').value;
+	localStorage.setItem('Height and Weight',fieldValue);
+	var fieldValue = document.getElementById('field_favoritefood','field_favoritefood').value;
+	localStorage.setItem('radio',fieldValue);
+}
+</script>
+
+</head>
+<body bgcolor="gray">
+
+<input type="text" class="form-control" id="field_Hobby" placeholder="Hobby" style="width:200px; /">
+  
+  <div class="form-group"><br>
+        
+      
+          <input type="text" class="form-control" id="field_address" placeholder="Address"  style="width:200px;"><br>
+           
+      </div><br>
+    </div>
+
+    
+    <div class="form-group">
+     
+        <input type="text" class="form-control" id="field_name" placeholder="First Name" style="width:200px;"><br>
+         
+      </div><br>
+    </div>
+    <div class="form-group">
+     
+        <input type="last" class="form-control" id="field_last" placeholder="Last Name" style="width:200px;"><br>
+         
+      </div><br>
+    </div>
+    <div class="form-group">
+     
+        <input type="number" class="form-control" id="field_number" placeholder="Phone Number" style="width:200px;"><br>
+         
+      </div><br>
+    </div>
+
+     <div class="form-group">
+      
+        <input type="date" class="form-control" id="field_date" placeholder="Birthdate" style="width:200px;""><br>
+        
+      </div><br>
+    </div>
+                  <div class="form-group">
+      <div class="col-xs-offset-3 col-xs-9">
+        <label class="checkbox-inline">
+                    <input type="checkbox" value="news"> Love ka ni bessy
+                </label>
+     
+      </div>
+    </div>
+<br/>
+<input type="button" value="Submit" onclick="save()" />
+   <a href="haroldharap.html"><h1>Okay na</h1></a></li>
+  <script src='har.js'></script>
+  <script src='har.html'></script>
+	</body>
+
+
+</html>
